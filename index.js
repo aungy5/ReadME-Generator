@@ -6,11 +6,15 @@ const generateReadMe = (answers) =>
 
   # ${answers.title}
   ## Table of Contents
-[Description](#description)
-[Installation](#installation)
-[Usage](#usage)
-[Contributors](#contributors)
-[Questions](#questions)
+- [Description](#description)
+
+- [Installation](#installation)
+
+- [Usage](#usage)
+
+- [Contributors](#contributors)
+
+- [Questions](#questions)
 
   ## Description
   ${answers.description}
@@ -27,7 +31,7 @@ const generateReadMe = (answers) =>
 
   Please contact me with any questions using either of the avenues below. 
 
-  Github URL: github.com/${answers.github}
+  Github URL: #github.com/${answers.github}
 
   Email: ${answers.email}`;
 
