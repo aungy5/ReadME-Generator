@@ -19,7 +19,7 @@
   ## Installation
   All users must make sure they install the npm package "inquirer" before using this app. The inquirer package is what enables us to take the user responses and inject them into a readMe template. Without the inquirer package, this would still be theoretically possible, but the process is streamlined significantly via use of the inquirer package.
   ## Usage
-  video link here.
+  https://drive.google.com/file/d/1MvPUsBIF0DuGbvdPqKz7eurwLQ4k_Znh/view?usp=sharing
   ## Contributors
   While I did not have any other direct contributors building this app, I would not have been able to do so without the instruction provided by our instructional team at the Upenn coding bootcamp. They have been a tremendous asset to me throughout the node.js unit, many thanks to them!
   ## Testing
