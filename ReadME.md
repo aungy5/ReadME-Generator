@@ -29,6 +29,6 @@
 
   Please contact me with any questions using either of the avenues below. 
 
-  Github URL: #github.com/aungy5
+  Github URL: https://github.com/aungy5
 
   Email: aungvary5@gmail.com

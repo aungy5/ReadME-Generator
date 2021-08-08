@@ -33,7 +33,7 @@ const generateReadMe = (answers) =>
 
   Please contact me with any questions using either of the avenues below. 
 
-  Github URL: #github.com/${answers.github}
+  Github URL: https://github.com/${answers.github}
 
   Email: ${answers.email}`;
 
