@@ -12,9 +12,9 @@
 
 - [Testing](#testing)
 
-- [Questions](#questions)
-
 - [License](#license)
+
+- [Questions](#questions)
 
   ## Description
   As all developers know, ReadMEs are a crucial part of each project, however they can be pain to generate. This stems from the fact that many different pieces of information need to be included in the readME, and it is easy to forget some of these pieces. I am hoping this app will help developers cover all their bases in their ReadMEs, and take some of the pain out of the ReadMe process.

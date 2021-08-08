@@ -16,9 +16,9 @@ const generateReadMe = (answers) =>
 
 - [Testing](#testing)
 
-- [Questions](#questions)
-
 - [License](#license)
+
+- [Questions](#questions)
 
   ## Description
   ${answers.description}
