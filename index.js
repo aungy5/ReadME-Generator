@@ -2,29 +2,31 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateReadMe = (answers) =>
-  `# ${answers.title}
+  `[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)](https://opensource.org/licenses/${answers.license})
+
+  # ${answers.title}
   ## Table of Contents
 [Description](#description)
 [Installation](#installation)
 [Usage](#usage)
-[Contributions](#contributions)
-[License](#license)
-[Contact Info](#contact-info)
+[Contributors](#contributors)
+[Questions](#questions)
 
-  # Description
+  ## Description
   ${answers.description}
-  # Installation
+  ## Installation
   ${answers.installation}
-  # Usage
+  ## Usage
   ${answers.usage}
-  # Contribution Guidelines
+  ## Contributors
   ${answers.contributions}
-  # Testing Instructions
+  ## Testing Instructions
   ${answers.testing}
-  # License
-  [![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-blue.svg)](https://opensource.org/licenses/${answers.license}
 
-  ### Contact Info
+  ## Questions
+
+  Please contact me with any questions using either of the avenues below. 
+
   Github URL: github.com/${answers.github}
 
   Email: ${answers.email}`;
@@ -62,10 +64,10 @@ inquirer
         message: 'Please add test instructions for your project here.',
       },
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Please select the relevant license for your project.',
-        choices: ['mit','artistic-2.0','ncsa','gpl','isc','postgresql','zlib']
+        choices: ['MIT','IDM','NCSA','GPL','ISC','Zlib']
       },
       {
         type: 'input',
