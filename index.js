@@ -18,6 +18,8 @@ const generateReadMe = (answers) =>
 
 - [Questions](#questions)
 
+- [License](#license)
+
   ## Description
   ${answers.description}
   ## Installation
@@ -28,6 +30,8 @@ const generateReadMe = (answers) =>
   ${answers.contributions}
   ## Testing
   ${answers.testing}
+  ## License
+  Click the license badge at the top of the ReadME to learn more about the license for this project. 
 
   ## Questions
 

@@ -14,6 +14,8 @@
 
 - [Questions](#questions)
 
+- [License](#license)
+
   ## Description
   As all developers know, ReadMEs are a crucial part of each project, however they can be pain to generate. This stems from the fact that many different pieces of information need to be included in the readME, and it is easy to forget some of these pieces. I am hoping this app will help developers cover all their bases in their ReadMEs, and take some of the pain out of the ReadMe process.
   ## Installation
@@ -24,6 +26,8 @@
   While I did not have any other direct contributors building this app, I would not have been able to do so without the instruction provided by our instructional team at the Upenn coding bootcamp. They have been a tremendous asset to me throughout the node.js unit, many thanks to them!
   ## Testing
   To test this app, simply open the project in your terminal and type the command "node index.js". Please make sure you have installed all relevant npm dependencies before testing in the terminal.
+  ## License
+  Click the license badge at the top of the ReadME to learn more about the license for this project. 
 
   ## Questions
 
