@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-  # ReadMe Generator
+  # ReadME Generator
   ## Table of Contents
 - [Description](#description)
 
@@ -10,6 +10,8 @@
 
 - [Contributors](#contributors)
 
+- [Testing](#testing)
+
 - [Questions](#questions)
 
   ## Description
@@ -17,10 +19,10 @@
   ## Installation
   All users must make sure they install the npm package "inquirer" before using this app. The inquirer package is what enables us to take the user responses and inject them into a readMe template. Without the inquirer package, this would still be theoretically possible, but the process is streamlined significantly via use of the inquirer package.
   ## Usage
-  Add vide demo here. 
+  video link here.
   ## Contributors
-  I did not have any other direct contributors building this app, but I would not have been able to do so without the instruction provided by our instructional team at the Upenn coding bootcamp. All 3 members have been extremely helpful in teaching us node.js
-  ## Testing Instructions
+  While I did not have any other direct contributors building this app, I would not have been able to do so without the instruction provided by our instructional team at the Upenn coding bootcamp. They have been a tremendous asset to me throughout the node.js unit, many thanks to them!
+  ## Testing
   To test this app, simply open the project in your terminal and type the command "node index.js". Please make sure you have installed all relevant npm dependencies before testing in the terminal.
 
   ## Questions

@@ -14,6 +14,8 @@ const generateReadMe = (answers) =>
 
 - [Contributors](#contributors)
 
+- [Testing](#testing)
+
 - [Questions](#questions)
 
   ## Description
@@ -24,7 +26,7 @@ const generateReadMe = (answers) =>
   ${answers.usage}
   ## Contributors
   ${answers.contributions}
-  ## Testing Instructions
+  ## Testing
   ${answers.testing}
 
   ## Questions
@@ -60,7 +62,7 @@ inquirer
       {
         type: 'input',
         name: 'contributions',
-        message: 'Please add contribution guidelines for your project here.',
+        message: 'Please list any additional contributors for your project here.',
       },
       {
         type: 'input',
